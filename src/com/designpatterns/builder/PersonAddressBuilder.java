@@ -8,11 +8,8 @@ public class PersonAddressBuilder extends PersonBuilder{
         person.city=city;
         return this;
     }
-    public PersonAddressBuilder withState(String state){
-        person.state=state;
+    public PersonAddressBuilder withState(String state) {
+        person.state = state;
         return this;
-    }
-    public Person build(){
-        return person;
     }
 }

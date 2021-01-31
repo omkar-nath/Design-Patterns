@@ -16,7 +16,5 @@ public class PersonWorkBuilder extends PersonBuilder {
         person.designation=designation;
         return this;
     }
-    public Person build(){
-        return person;
-    }
+
 }
